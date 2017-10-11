@@ -55,5 +55,6 @@ function pEjercicio4_1() {
     }
 }
 function pEjercicio4_2() {
-    $("#resE4").html(calcularPromedio(arrayE4).toFixed(3)+" es el promedio de sus numeros");
+    var num = calcularPromedio(arrayE4);
+    $("#resE4").html(num.toFixed(3)+" es el promedio de sus numeros");
 }
